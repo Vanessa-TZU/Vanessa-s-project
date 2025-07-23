@@ -1,0 +1,172 @@
+.header {
+  background-color: rgb(187, 233, 253);
+}
+.apple {
+  background-color: rgb(253, 243, 187);
+}
+* {
+  font-size: 1.5rem;
+}
+.babyblue {
+  color: cornflowerblue !important;
+}
+.red-text,
+.red {
+  color: red;
+}
+.blue .blue-text {
+  color: blue;
+}
+.green.green-text {
+  color: green;
+}
+.ranbow-linear-gradient {
+  background: linear-gradient(
+    to right,
+    rgb(255, 213, 213),
+    rgb(255, 229, 181),
+    rgb(253, 253, 179),
+    rgb(162, 234, 162),
+    rgb(199, 199, 255),
+    rgb(187, 158, 208),
+    rgb(233, 187, 233)
+  );
+}
+
+.my-btn {
+  background-color: rgb(69, 255, 48); /* 背景 */
+  background-image: url(dog.jpg); /* 背景圖片 */
+  background-size: contain; /* 符合容器大小 */
+  background-repeat: no-repeat; /* 不重複 */
+  background-position: center; /* 背景圖片置入位置 */
+  text-align: center; /* 文字水平置中 */
+  /* vertical-align: middle; */
+  line-height: 100px; /* 行高 */
+  padding: 10px 10px; /*內距*/
+  /* padding: 15px 10px 5px 10px; 上 右 下 左 */
+  margin-top: 10px; /* 外邊距-上 */
+  font-weight: bold; /* 字體粗細 */
+  width: 100px; /* 寬度 */
+  height: 100px; /* 高度 */
+  border-radius: 50%; /* 圓角 */
+  /* box-shadow: 2px 2px 2px 2px gray; 陰影 */
+  color: rgb(255, 255, 255); /* 文字顏色 */
+  display: inline-block; /* 畫面寬度滿了可以換行 */
+}
+.my-btn:active {
+  box-shadow: 5px 5px 5px 5px rgb(200, 211, 216);
+}
+.circle {
+  background-color: rgb(167, 255, 255);
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  line-height: 100px;
+  text-align: center;
+  border: 3px rgb(254, 254, 0);
+  margin: 20px;
+}
+.circle:hover {
+  background-color: blue;
+}
+.circle:active {
+  box-shadow: 5px 5px 100px 5px rgb(179, 179, 255);
+}
+.jj {
+  background-image: url(./dancingduck.jpg);
+  background-size: 180%;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  line-height: 100px;
+  border: 3px rgb(254, 254, 0);
+  margin: 20px;
+}
+
+/* .mm {
+  border-radius: 40%;
+  padding: 10px;
+  border: 4px double rgb(184, 184, 255);
+  background-color: bisque;
+  color: cornflowerblue;
+  display: inline-block;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+} */
+.message {
+  border-radius: 10px;
+  padding: 3px 6px;
+  border: 2px double darkcyan;
+  background-color: aquamarine;
+  color: darkcyan;
+  display: inline-block;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+/* .mm:after {
+  content: "100";
+  background-color: rgb(255, 121, 141);
+  padding: 5px;
+  border-radius: 100%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 0.5rem;
+  color: rgb(255, 255, 255);
+} */
+.message:after {
+  content: "111";
+  background-color: rgb(254, 183, 221);
+  padding: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 0.5rem;
+  color: red;
+}
+/* .box {
+  background-color: aquamarine;
+  position: relative;
+}
+.box-center {
+  display: inline-block;
+  background-color: cadetblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.5rem;
+} */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: mistyrose;
+  position: relative;
+}
+.box-center {
+  display: inline-block;
+  background-color: lightcoral;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.5rem;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.flex-box {
+  border: 1px solid yellowgreen;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  justify-content: space-around;
+  align-items: center;
+}
